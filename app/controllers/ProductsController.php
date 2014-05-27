@@ -3,8 +3,7 @@
 class ProductsController extends BaseController {
 
 	public function __construct() {
-		$this->beforeFilter('csrf', array('on'=>'post'));
-		$this->beforeFilter('admin');
+		$this->beforeFilter('csrf', array('on'=>'post'));	
 	}
 
 	public function getIndex() {
