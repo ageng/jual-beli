@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'database',
+			'database'  => 'ecomm',
 			'username'  => 'ecomm',
 			'password'  => '123456',
 			'charset'   => 'utf8',

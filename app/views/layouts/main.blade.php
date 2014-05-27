@@ -57,7 +57,7 @@
                         <nav id="signin" class="dropdown">
                             <ul>
                                 <li>
-                                    <a href="#">{{ HTML::image('img/user-icon.gif', 'Sign In') }} Sign In {{ HTML::image('img/down-arrow.gif', 'Sign In') }}/></a>
+                                    <a href="#">{{ HTML::image('img/user-icon.gif', 'Sign In') }} Sign In {{ HTML::image('img/down-arrow.gif', 'Sign In') }}</a>
                                     <ul>
                                         <li><a href="#">Sign In</a></li>
                                         <li><a href="#">Sign Up</a></li>
