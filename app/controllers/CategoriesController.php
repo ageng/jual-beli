@@ -21,11 +21,11 @@ class CategoriesController extends BaseController {
 			$category->save();
 
 			return Redirect::to('admin/categories/index')
-				->with('message', 'Category Created');
+				->with('message', 'Kategori baru berhasil dibuat');
 		}
 
 		return Redirect::to('admin/categories/index')
-			->with('message', 'Something went wrong')
+			->with('message', 'Terjadi kesalahan.')
 			->withErrors($validator)
 			->withInput();
 	}
@@ -36,10 +36,10 @@ class CategoriesController extends BaseController {
 		if ($category) {
 			$category->delete();
 			return Redirect::to('admin/categories/index')
-				->with('message', 'Category Deleted');
+				->with('message', 'Kategori berhasil dihapus');
 		}
 
 		return Redirect::to('admin/categories/index')
-			->with('message', 'Something went wrong, please try again');
+			->with('message', 'Terjadi kesalahan, silahkan diulangin kembali.');
 	}
 }

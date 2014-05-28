@@ -6,7 +6,7 @@
 
 		<h1>Categories Admin Panel</h1><hr>
 
-		<p>Here you can view, delete, and create new categories.</p>
+		<p>Di sini Anda bisa melihat, menghapus dan menambah kategori baru.</p>
 
 		<h2>Categories</h2><hr>
 
