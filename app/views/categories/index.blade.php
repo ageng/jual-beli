@@ -4,11 +4,11 @@
 
 	<div id="admin">
 
-		<h1>Categories Admin Panel</h1><hr>
+		<h1>Kategori Admin Panel</h1><hr>
 
 		<p>Di sini Anda bisa melihat, menghapus dan menambah kategori baru.</p>
 
-		<h2>Categories</h2><hr>
+		<h2>Kategori yang ada.</h2><hr>
 
 		<ul>
 			@foreach($categories as $category)
@@ -22,7 +22,7 @@
 			@endforeach
 		</ul>
 
-		<h2>Create New Category</h2><hr>
+		<h2>Membuat kategori baru</h2><hr>
 
 		@if($errors->has())
 		<div id="form-errors">
